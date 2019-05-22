@@ -4,7 +4,7 @@ def prime?(n)
     return false
   end
 
-  a = rand(1..n)
+  a = rand(1..(n - 1))
   puts a
 
 end
