@@ -3,7 +3,7 @@ def prime?(n)
   if (n < 2) || (n % 2 == 0)
     return false
   end
-  
+
   a = rand(1..(n - 1))
 
   left = a**((n-1)/2)
