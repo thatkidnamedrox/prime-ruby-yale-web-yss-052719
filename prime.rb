@@ -1,18 +1,4 @@
 # Add  code here!
 def prime?(n)
-  if (n < 2) || (n % 2 == 0)
-    return false
-  end
-
-  a = rand(1..(n - 1))
-
-  left = a**((n-1)/2)
-  right = (a/n) % n
-
-  if (left != right)
-    puts left
-    return false
-  end
-
-  return true
+  (2..n/2).none?{|i| n % i == 0}
 end
