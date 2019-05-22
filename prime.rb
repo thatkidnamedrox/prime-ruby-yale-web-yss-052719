@@ -5,6 +5,6 @@ def prime?(n)
   end
 
   a = rand(1..n)
-  puts n
+  puts a
 
 end
