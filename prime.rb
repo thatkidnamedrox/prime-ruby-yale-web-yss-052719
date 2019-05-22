@@ -10,6 +10,7 @@ def prime?(n)
   right = (a/n) % n
 
   if (left != right)
+    puts left
     return false
   end
 
